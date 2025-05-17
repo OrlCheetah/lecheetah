@@ -1,5 +1,5 @@
 // components/NoteViewer.tsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import matter from "gray-matter";
 
