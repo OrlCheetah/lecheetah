@@ -17,13 +17,13 @@ export const Navbar: React.FC<NavbarProps> = ({
 }) => {
   return (
     <header className="bg-gray-100 dark:bg-[#0b1120] shadow-md px-6 py-4 flex justify-between items-center">
-      <Link to="/lecheetah" className="text-2xl font-bold text-gray-900 dark:text-white">
+      <Link to="/lecheetah/" className="text-2xl font-bold text-gray-900 dark:text-white">
         {language === "fr" ? "Notes IA" : "AI Notes"}
       </Link>
 
       <nav className="flex items-center space-x-4">
         <Link
-          to="/lecheetah/about"
+          to="/lecheetah/about/"
           className="text-gray-700 dark:text-gray-300 hover:underline"
         >
           {language === "fr" ? "À propos" : "About"}

@@ -35,14 +35,14 @@ export default function App() {
         toggleLanguage={() => setLanguage((prev) => (prev === "fr" ? "en" : "fr"))}
       />
       <Routes>
-        <Route path="/lecheetah" element={<IANotes
+        <Route path="/lecheetah/" element={<IANotes
                   language={language}
                   setLanguage={setLanguage}
                   darkMode={darkMode}
                   setDarkMode={setDarkMode}
                   searchTerm={searchTerm}
                   setSearchTerm={setSearchTerm} />} />
-        <Route path="/lecheetah/about" element={<About language={language} />} />
+        <Route path="/lecheetah/about/" element={<About language={language} />} />
       </Routes>
       <Footer language={language} />
     </Router>
